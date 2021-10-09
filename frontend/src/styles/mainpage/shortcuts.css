@@ -1,0 +1,187 @@
+.shortcut_cover {
+  width: 23%;
+  height: calc(100vh - 53px);
+  max-width: 320px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 52px;
+  left: 0;
+  overflow-y: scroll;
+}
+
+.shortcut_cover::-webkit-scrollbar {
+  width: 8px;
+}
+
+.shortcut_cover::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.shortcut_cover:hover::-webkit-scrollbar-thumb {
+  background: rgba(103, 107, 131, 0.63);
+}
+
+.shortcuts {
+  width: 100%;
+  height: 100%;
+}
+
+.shortcuts .hidden_spacer {
+  width: 100%;
+  height: 1.6rem;
+}
+
+.shortcuts .m1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  padding-left: 0.4rem;
+  cursor: pointer;
+}
+
+.shortcuts .m1 img {
+  border-radius: 50%;
+  width: 28px;
+}
+
+.shortcuts .m1 h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #363636;
+  margin: 0 0 0 0.5rem;
+  padding: 0.7rem 0;
+}
+
+.shortcuts .m1:hover {
+  background-color: #dfdfdf;
+}
+
+.shortcuts .see_more, .shortcuts .see_more_shortcuts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  padding-left: 0.4rem;
+}
+
+.shortcuts .see_more .dropdown, .shortcuts .see_more_shortcuts .dropdown {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #c2c1c1;
+}
+
+.shortcuts .see_more .dropdown img, .shortcuts .see_more_shortcuts .dropdown img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shortcuts .see_more .rotate_0, .shortcuts .see_more_shortcuts .rotate_0 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.shortcuts .see_more .rotate_180, .shortcuts .see_more_shortcuts .rotate_180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.shortcuts .see_more h3, .shortcuts .see_more_shortcuts h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #363636;
+  margin: 0 0 0 0.5rem;
+  padding: 0.7rem 0;
+}
+
+.shortcuts .see_more:hover, .shortcuts .see_more_shortcuts:hover {
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.shortcuts .line_breaker {
+  position: relative;
+  top: 0;
+  width: 98%;
+  margin: 0.5rem auto;
+  height: 1px;
+  background-color: rgba(48, 48, 48, 0.329);
+}
+
+.shortcuts .see_more_shortcuts .rotate_0 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.shortcuts .see_more_shortcuts .rotate_180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.shortcuts .shortcutcover:hover > .header p {
+  display: block;
+  pointer-events: visible;
+}
+
+.shortcuts .header {
+  width: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shortcuts .header h3 {
+  color: dimgray;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.shortcuts .header p {
+  color: #1877f2;
+  display: none;
+  pointer-events: none;
+}
+
+.shortcuts .header p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+p .footer-link {
+  outline: none;
+  color: #646464;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+p .footer-link:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=shortcuts.css.map */

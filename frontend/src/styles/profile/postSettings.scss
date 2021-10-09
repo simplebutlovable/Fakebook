@@ -1,0 +1,90 @@
+.post_settings{
+    margin-top: 1.2rem;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(128, 128, 128, 0.63);
+    border-radius: 10px;
+    .post_settings_content{
+        .post_settins_header{
+            padding: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            
+            h3{
+                margin: 0;
+               
+            }
+            .filters{
+                display: flex;
+                p{
+                    margin: 0;
+                }
+                ._f{
+                    display: flex;
+                    align-items: center;
+                    padding: 0.5rem;
+                    background-color: rgb(224, 224, 224);
+                    margin: 0 0.3rem;
+                    border-radius: 6px;
+                    font-weight: 500;
+                    color: rgb(65, 65, 65);
+                    cursor: pointer;
+                    &:hover{
+                        border-radius: 6px;
+                        background-color:rgb(211, 211, 211);
+                    }
+                    img{
+                        margin: 0 0.3rem;
+                        width: 17px;
+                        height: 17px;
+                    }
+                }
+                
+            }
+        }
+        ._l_b{
+            width: 100%;
+            height: 1px ;
+            background-color: rgb(224, 224, 224);
+        }
+        .list_type{
+            padding: 0.5rem 0.5rem 0 0.5rem;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            .list_view,
+            .grid_view{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                padding: 0.4rem;
+                cursor: pointer;
+                img{
+                    margin-right: 0.3rem;
+                    width: 16px;
+                    height: 16px;
+                }
+                &:hover{
+                    background-color:rgb(241, 239, 239)
+                }   
+                p{
+                    font-weight: 500;
+                    margin: 0;
+                }
+            }
+            ._a{
+                border-bottom: 2px solid blue;
+                color: blue;
+                &:hover{
+                    background-color: white;
+                }
+            ._i{
+                border-radius: 6px;
+                &:hover{      
+                    color: rgb(71, 71, 71);
+                    }
+                }
+            }
+        }
+    }
+}

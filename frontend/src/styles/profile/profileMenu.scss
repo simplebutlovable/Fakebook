@@ -1,0 +1,138 @@
+.menu_cover{
+    position: sticky;
+    z-index: 1;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.315);
+}
+
+.menu_cover.isSticky{
+    background-color: red;
+}
+
+.main_menu{
+    padding:0.7rem 0;
+    width: 63%;
+    max-width: 940px;
+    margin-top: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    .left_main_menu{
+        display: flex;
+       
+        align-items: center;
+        background-color: white;
+        .menu_holder{
+            cursor: pointer;
+            padding: 9px 1rem;
+            &:hover{
+                background-color:rgb(228, 230, 235);
+                border-radius: 6px;
+        }
+       
+            p{
+                font-size: 17px;
+                font-weight: 600;
+                margin: 0;
+                color: rgb(71, 71, 71);
+            }
+        }
+        .active_menu{
+           
+           border-bottom: 2px solid #1877f2;
+          
+            &:hover{
+               cursor: pointer;
+               background-color: white;
+               border-radius: 0;
+            }
+            p{
+                color: #1877f2;   
+                
+            }
+        }
+        .more_menu_list{
+            display: flex;
+            align-items: center;
+           
+           
+            cursor: pointer;
+           img{
+            margin-left: 0.4rem;
+            width: 12px;
+            height: 12px;
+            filter: grayscale(50%);
+           }
+        }
+    }
+    .right_main_menu{
+        display: flex;
+        align-items: center;
+        .edit_profile{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            background-color:rgb(223, 224, 226);
+            height: 40px;
+            padding: 0 0.4rem;
+            border-radius: 6px;
+            cursor: pointer;
+            &:hover{
+                background-color:rgb(202, 203, 206);
+            }
+            img{
+                margin-right: 0.2rem;
+                width: 16px;
+                height: 16px;
+            }
+        }
+        .view_as{
+            margin-left:0.75rem;
+            padding: 9px;
+            background-color:rgb(223, 224, 226);
+            border-radius: 6px;
+            cursor: pointer;
+            &:hover{
+                background-color:rgb(202, 203, 206);
+            }
+            img{
+                width: 16px;
+                height: 16px;
+            }
+        }
+        .profile_search{
+            margin-left:0.75rem;
+            padding: 9px;
+            background-color:rgb(223, 224, 226);
+            border-radius: 6px;
+            cursor: pointer;
+            img{
+                width: 16px;
+                height: 16px;
+            }
+            &:hover{
+                background-color:rgb(202, 203, 206);
+            }
+        }
+    }
+    .profile_more{
+        margin-left:0.75rem;
+        padding: 9px;
+        background-color:rgb(223, 224, 226);
+        border-radius: 6px;
+        cursor: pointer;
+       
+        img{
+           width: 16px;
+           height: 16px;
+        }
+        &:hover{
+            background-color:rgb(202, 203, 206);
+        }
+    }
+}

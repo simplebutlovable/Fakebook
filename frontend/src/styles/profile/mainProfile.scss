@@ -1,0 +1,109 @@
+
+
+.profile_page_header1{
+    position: fixed;
+    top: 50%;
+    width: 10%;  
+}
+
+.main_page_body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    .profile_info{
+        width: 100%;
+        height: 349px;
+        background-color: #f0f2f5;
+        
+        .cover_frame{
+            width: 70%;
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            height: 100%;
+            overflow: hidden;
+            .cover_photo{   
+                img{
+                    width: 100%;
+                    margin-top: -59.76px;
+                }
+            }
+        }
+        .profile_pic{
+            position: relative;
+            z-index: -0;
+            top: -40%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 168px;
+            height: 168px; 
+            img{
+                width: 100%;
+                height: 100%;
+                border: 4px solid white;
+                border-radius: 50%;
+            }
+        }
+    }
+    .profile_name{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        margin-top: 2.2rem;
+        font-weight: bolder;
+        .first_profile,
+        .last_profile{
+            margin: 0 0.4rem;
+            p{
+                margin: 0;
+            }
+        }
+    }
+
+}
+.bio{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600 ;
+    color: rgb(24, 118, 242);
+    margin-bottom: 0.4rem;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-top: 1rem;
+        background-color: rgb(224, 224, 224);
+    }
+}
+
+.wall_padding{
+    border-top: 1px solid rgb(216, 216, 216);
+    background-color: #f0f2f5;
+}
+
+.wall{
+    width: 63%;
+    max-width: 940px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    .left_side{
+        width: 40%;
+    }
+    
+    .timeline{
+        width: 58%;
+        
+        
+        
+    }
+}
+

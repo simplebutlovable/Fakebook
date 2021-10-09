@@ -1,0 +1,204 @@
+.signup_cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.signup_cover .form_holder {
+  margin-top: 6%;
+  width: 50%;
+  max-width: 432px;
+  background-color: white;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 6px rgba(128, 128, 128, 0.63);
+          box-shadow: 0 0 6px rgba(128, 128, 128, 0.63);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+.signup_cover .form_holder .header {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.signup_cover .form_holder .header .page_title h1 {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.signup_cover .form_holder .header .page_title p {
+  margin: 0;
+}
+
+.signup_cover .form_holder .header .close_btn {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.signup_cover .form_holder .line_breaker {
+  width: 100%;
+  height: 1px;
+  background-color: #949494;
+  margin: 0.75rem 0;
+}
+
+.signup_cover .form_holder form {
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup_cover .form_holder form .full_name {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.signup_cover .form_holder form .full_name #s_firstname,
+.signup_cover .form_holder form .full_name #s_lastname {
+  font-size: 15px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  border: 1px solid #949494;
+  padding: 0.6rem;
+  width: 48%;
+  margin-bottom: 0.3rem;
+}
+
+.signup_cover .form_holder form #s_email,
+.signup_cover .form_holder form #s_password {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  border: 1px solid #949494;
+  padding: 0.6rem;
+  width: 100%;
+  margin: 0.3rem 0;
+}
+
+.signup_cover .form_holder form .label_header {
+  text-align: start;
+  margin: 0;
+  font-size: 12px;
+  color: #606770;
+  font-weight: 500;
+}
+
+.signup_cover .form_holder form .birthday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.signup_cover .form_holder form .birthday select {
+  width: 31%;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 0.6rem;
+  border: 1px solid #949494;
+  margin: 0.3rem 0;
+}
+
+.signup_cover .form_holder form .gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.signup_cover .form_holder form .gender .gender_list {
+  width: 27%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  border-radius: 6px;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border: 1px solid #949494;
+  cursor: pointer;
+}
+
+.signup_cover .form_holder form .gender .gender_list label,
+.signup_cover .form_holder form .gender .gender_list input[type="radio"] {
+  cursor: pointer;
+}
+
+.signup_cover .form_holder form .terms {
+  font-size: 11px;
+  color: #949393;
+  font-weight: 500;
+  text-align: start;
+}
+
+.signup_cover .form_holder form .terms a {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.signup_cover .form_holder form .terms a:hover {
+  text-decoration: underline;
+}
+
+.signup_cover .form_holder form .submit_holder {
+  width: 100%;
+  text-align: center;
+}
+
+.signup_cover .form_holder form .submit_holder input[type="submit"] {
+  margin: 0.5rem 0;
+  width: 50%;
+  max-width: 194px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0.45rem 0;
+}
+
+.signup_cover .form_holder form .submit_holder input[type="submit"]:hover:hover {
+  background-color: #36a420;
+  cursor: pointer;
+}
+
+.err {
+  border: none !important;
+  border: 1px solid red !important;
+}
+/*# sourceMappingURL=signup.css.map */

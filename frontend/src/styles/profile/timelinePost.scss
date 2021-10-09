@@ -1,0 +1,117 @@
+.post_layout{
+    p{
+        margin: 0;
+    }
+    margin-top: 1.2rem;
+    background-color: white;
+    box-shadow: 0 0 2px rgba(128, 128, 128, 0.63);
+    border-radius: 10px;
+    padding: 0.75rem;
+    .post_layout_header{
+        display: flex;
+        justify-content: space-between;
+        .sender_info{
+            display: flex;
+            .sender_profile_pic1{
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+            .sender_name{      
+                p{
+                    margin-left: 0.4rem;
+                    font-weight: 500;
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+                .post_set{
+                    margin-left: 0.4rem;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin-left: 0.4rem;
+                        width: 12px;
+                        filter: invert(0.39) sepia(0.11);
+                        
+                    }
+                }
+            }
+        }
+        .poke{
+            position: relative;
+            top: 0;
+            width: 17px;
+            height: 17px;
+            padding: 0.75rem;
+            border-radius:50%;
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform:translate(-50%,-50%);
+                width: 16px;
+                height: 16px;
+               
+            }
+            &:hover{
+                background-color:rgb(241, 239, 239);
+                cursor: pointer;
+               
+               }
+        }
+    }
+    .post_caption{
+        margin: 0.75rem 0;
+    }
+    .post_image{
+        .post_image_holder{
+            width: 100%;
+            border-radius: 6px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            &::after{
+                content: '';
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: rgba(100, 100, 100, 0.493);
+                margin: 0.5rem 0;
+            }
+        }
+    }
+    
+  .reactions{
+      display: flex;
+      
+      .reaction_list{
+         
+          width: 33.33%;
+          cursor: pointer;
+          padding: 0.6rem;
+          font-weight: 500;
+          color: #606770;
+         display: flex;
+         justify-content: center;
+        align-items: center;
+            &:hover{
+                background-color: rgb(235, 235, 235);
+                border-radius: 6px;
+            }
+         text-align: center;
+          img{
+              margin-right: 0.4rem;
+              width: 19px;
+              height: 19px;
+          }
+          p{
+              font-size: 14px;
+          }
+      }
+  }
+}

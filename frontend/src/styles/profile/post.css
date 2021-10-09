@@ -1,0 +1,99 @@
+.post_wall {
+  padding: 0.75rem;
+  background-color: white;
+  -webkit-box-shadow: 0 0 2px rgba(128, 128, 128, 0.63);
+          box-shadow: 0 0 2px rgba(128, 128, 128, 0.63);
+  border-radius: 10px;
+}
+
+.post_wall .sender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post_wall .sender .sender_profile_pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.post_wall .sender .label_send {
+  border-radius: 20px;
+  width: 88%;
+  background-color: #e4e6eb;
+  cursor: pointer;
+}
+
+.post_wall .sender .label_send:hover {
+  background-color: lightgray;
+}
+
+.post_wall .sender .label_send p {
+  padding: 0.5rem;
+  margin: 0 0.4rem;
+  font-size: 17px;
+  color: #65676b;
+}
+
+.post_wall .line_breaker1 {
+  margin: 0.75rem 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.post_wall .attachments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.post_wall .attachments .attachment_list {
+  width: 33.33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.post_wall .attachments .attachment_list .attachment_wrapper {
+  color: #65676b;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post_wall .attachments .attachment_list .attachment_wrapper img {
+  padding: 0 0.5rem;
+}
+
+.post_wall .attachments .attachment_list .attachment_wrapper p {
+  margin: 0;
+}
+
+.post_wall .attachments .attachment_list:hover {
+  border-radius: 6px;
+  background-color: lightgray;
+}
+
+.post_wall .live_video img {
+  height: 18px;
+}
+/*# sourceMappingURL=post.css.map */

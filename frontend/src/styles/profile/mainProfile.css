@@ -1,0 +1,122 @@
+.profile_page_header1 {
+  position: fixed;
+  top: 50%;
+  width: 10%;
+}
+
+.main_page_body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+}
+
+.main_page_body .profile_info {
+  width: 100%;
+  height: 349px;
+  background-color: #f0f2f5;
+}
+
+.main_page_body .profile_info .cover_frame {
+  width: 70%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main_page_body .profile_info .cover_frame .cover_photo img {
+  width: 100%;
+  margin-top: -59.76px;
+}
+
+.main_page_body .profile_info .profile_pic {
+  position: relative;
+  z-index: -0;
+  top: -40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 168px;
+  height: 168px;
+}
+
+.main_page_body .profile_info .profile_pic img {
+  width: 100%;
+  height: 100%;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+.main_page_body .profile_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 35px;
+  margin-top: 2.2rem;
+  font-weight: bolder;
+}
+
+.main_page_body .profile_name .first_profile,
+.main_page_body .profile_name .last_profile {
+  margin: 0 0.4rem;
+}
+
+.main_page_body .profile_name .first_profile p,
+.main_page_body .profile_name .last_profile p {
+  margin: 0;
+}
+
+.bio {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1876f2;
+  margin-bottom: 0.4rem;
+}
+
+.bio:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bio::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 1rem;
+  background-color: #e0e0e0;
+}
+
+.wall_padding {
+  border-top: 1px solid #d8d8d8;
+  background-color: #f0f2f5;
+}
+
+.wall {
+  width: 63%;
+  max-width: 940px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wall .left_side {
+  width: 40%;
+}
+
+.wall .timeline {
+  width: 58%;
+}
+/*# sourceMappingURL=mainProfile.css.map */
