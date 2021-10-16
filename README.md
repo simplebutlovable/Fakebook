@@ -6,7 +6,7 @@ to mimic Facebook functions. <br/>
 
 NOTE: <br/>
 This is for educational purpose only. Cloning this repo and disguise as offical "Facebook" page
-to gather sensitive information is against the law.The author is not held liable for such mishaps.
+to gather sensitive information is against the law.The author is not held liable for this matter.
 All the data processed in this site "Fakebook" is encrypted and secured. <br/><br/>
 
 
